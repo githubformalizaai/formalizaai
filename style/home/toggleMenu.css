@@ -1,0 +1,80 @@
+.toggle-button{
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 3rem;
+  height: 2.1rem;
+
+}
+
+
+@media screen and (max-width: 1024px){
+.toggle-button{
+  display: flex;
+  cursor: pointer;
+}
+
+.openMenu .toggle-button .hamburguer{ 
+  border-top: transparent;
+}
+
+.openMenu .toggle-button .hamburguer::before{ 
+transform:  rotate(135deg);
+}
+
+.openMenu .toggle-button .hamburguer::after{ 
+  transform:  rotate(-135deg);
+  top: -.7rem;
+}
+.toggle-button .hamburguer{
+  border-top: .2rem solid #0053FC;
+  border-radius: .1rem;
+  width: 2rem;
+  display: block;
+
+}
+.toggle-button .hamburguer::before, .toggle-button .hamburguer::after{
+  content: "";
+  display: block;
+  width: 2rem;
+  height: .2rem;
+background-color: #0053FC;
+margin-top: .5rem;
+border-radius: .1rem;
+transition: .3s;
+position: relative;
+}
+
+.header-links{
+  display: none;
+}
+
+.navbar{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: baseline;
+}
+
+.header-links ul, .header-contact a{
+  display: flex;
+flex-direction: column;
+
+
+
+}
+
+#dropdown-mobile > li{
+  display: none !important;
+}
+
+
+#logoHome{
+display: none;
+
+}
+
+
+}

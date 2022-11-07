@@ -1,0 +1,260 @@
+.ponto {
+  color: #0053fc;
+ 
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-link {
+  font-weight: 400;
+display: flex;
+justify-content: end;
+  position: relative;
+  margin-bottom: 1.5rem;
+  margin-right: 1.4rem;
+align-items: center;
+
+}
+
+.arrow-link:hover{ 
+  transform:translateX(-1%);
+transition: ease-in .2s;
+}
+.arrow-link::after {
+  content: "";
+  background-image: url(/assets/components/arrow-right.svg);
+  background-repeat: no-repeat;
+  width: 1.4rem;
+  height: 1.6rem;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+
+}
+
+.arrow-link::before {
+  content: "";
+  background-color: #313131;
+}
+
+.arrow-link:hover::after{ 
+  transform:translateX(15%);
+transition: ease-in .2s;}
+
+
+.arrow-link-2 {
+  font-family: "CircularStd-Book", sans-serif;
+  font-weight: 400;
+  display: inline-flex;
+  position: relative;
+  margin-bottom: 1.5rem;
+  margin-right: 1.4rem;
+  color: #313131;
+flex-wrap: nowrap;
+align-items: end;
+}
+
+.arrow-link-2:hover{ 
+  transform:translateX(3%);
+transition: ease-in-out .2s;}
+
+.arrow-link-2::after {
+  content: "";
+  background-image: url(/assets/components/arrow-right.svg);
+  background-repeat: no-repeat;
+  width: 1.4rem;
+  height: 1.6rem;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+
+}
+
+ .arrow-link-2:hover::after{ 
+  transform:translateX(3%);
+transition: ease-in-out .2s;}
+
+.arrow-link-2::before {
+  content: "";
+  width: 9.5rem;
+  height: 0.1rem;
+  position: absolute;
+  background-color: #313131;
+
+
+}
+
+.arrow-link-2:hover::before{ 
+  transform:translateX(2%);
+transition: ease-in-out .2s;
+}
+
+#submit-btn:disabled, #submit-btn:disabled:hover{
+
+background: #A4A4A4;
+}
+
+.blue-btn, .blue-btn-home{
+  color: #0053FC;
+  font-weight: 450;
+  font-size: 2.4rem;
+  position: relative;
+  margin-bottom: 20rem;
+  margin-top: 2rem;
+  font-family: "CircularStd-Book";
+}
+
+.blue-btn:hover , .blue-btn-home:hover{
+  font-weight: 650;
+  transform: ease-in 1s;
+}
+
+.blue-btn::after, .blue-btn-home::after{
+  content: url(/assets/components/home-blue-component.svg);
+  position: absolute;
+  left: 1.3rem;
+  top: 3rem;
+  width: 110%;
+
+
+}
+
+.black-btn{
+  color: #000000;
+  font-weight: 450;
+  font-size: 2.4rem;
+  position: relative;
+  margin-bottom: 20rem;
+  margin-top: 2rem;
+  font-family: "CircularStd-Book", sans-serif;
+
+}
+.black-btn:hover{
+  font-weight: 650;
+transform: ease-in .5s;
+}
+.black-btn::after{
+  content: url(/assets/components/home-black-component.svg);
+  position: absolute;
+  left: 1.2rem;
+  top: 3rem;
+  width: 110%;
+  
+
+}
+
+.priceActive,
+.pageActive{ 
+  color: #5452F6;
+
+}
+.header-contact a:hover{
+ color: #00339B;
+ transition: all .3s;
+}
+  
+.ml-1{margin-left: 1.5rem;}
+.ml-2{margin-left: 2rem;}
+.ml-3{margin-left: 2.5rem;}
+.ml-4{margin-left: 3rem;}
+.ml-5{margin-left: 3.5rem;}
+.ml-6{margin-left: 4rem;}
+.ml-7{margin-left: 5rem;}
+.ml-8{margin-left: 7.5rem;}
+
+.mb-5{margin-bottom: 10rem;}
+
+
+.form-relative{
+  position: relative;
+}
+.form-error{position: absolute;
+display: flex;
+align-items: center;
+gap: .5rem;
+  opacity: 0;
+  font-weight: 450;
+font-size: 1.4rem;
+line-height: 104%;
+left: .1rem;
+top: 8rem;
+animation: errorForm .5s fowards;
+}
+
+
+@keyframes slidepoint {
+from{
+  font-weight: inherit;
+}
+to{
+  font-weight: 800;
+}
+}
+
+@keyframes errorForm {
+  from{
+    opacity: 0;
+  }
+  
+  to{
+opacity: 1;
+  }
+}
+
+.web-img-disable{
+  display: none;
+
+}
+.mobile-img-disable{
+  display: flex;
+
+}
+
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 768px){
+
+  .mobile-img-disable{
+    display: none;
+  
+  }
+ .web-img-disable{
+
+    display: flex;
+    max-width: 99%;
+ }
+}
+
+
+@media screen and (max-width: 468px){
+
+  .blue-btn::after, .blue-btn-home::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0rem;
+  }
+.blue-btn{
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.blue-btn-home{margin-left: 3.5rem;
+  font-size: 2rem;
+  font-weight: 900}
+}
+
+
+.backToTop{
+ transition: 200ms; 
+}
+
+
+.swal2-styled.swal2-confirm{ background-color: #0053FC;}

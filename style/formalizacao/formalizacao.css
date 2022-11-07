@@ -1,0 +1,289 @@
+.wrapper-formalizacao{
+  background-image: url(/assets/img/formalizacao/formalizacao_bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: auto;
+max-width: 100%;
+  padding-bottom: 28rem;
+background-size: contain;
+
+
+}
+
+
+
+.co-working-formalizacao{
+background-image: url(/assets/img/formalizacao/formalizacao_footer.png);
+background-repeat: no-repeat;
+max-width: 100%;
+height: calc(79vh - 5rem);
+flex-direction: column;
+background-size: contain;
+}
+
+
+.formalizacao-section{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-bottom: 12rem;}
+.formalizacao-img{
+  position: relative;
+}
+.formalizacao-img::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 40rem;
+  left: -10%;
+  top: 40%;
+  z-index: -1;
+  background: linear-gradient(to left, #f4f4f4 -40%, #F5B590 -40%);
+}  
+
+
+.formalizacao-section h2, .formalizacao-process h2, .registroMarca-section h2{
+  font-weight: 900;
+font-size: 4rem;
+line-height: 104%;
+max-width: 21ch;
+}
+
+.formalizacao-section p, .formalizacao-process p, .registroMarca-section p{
+  font-weight: 450;
+font-size: 2.4rem;
+line-height: 145%;
+max-width: 35ch;
+
+}
+
+.formalizacao-process{
+  padding-top: 10rem;
+}
+
+
+
+.formalizacao-process{display: grid;
+margin-bottom: 8rem;
+  grid-template-columns: 1.6fr 1fr;
+}
+.formalizacao-process .formalizacao-img{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  
+
+}
+
+.card-1 p{
+  padding-bottom: 2rem;
+
+}
+
+
+
+@media screen and (min-width: 1486px){
+.formalizacao-text h2 {
+  font-size: 5.4rem;
+}
+.formalizacao-text p{
+  font-size: 3.2rem;
+  max-width: 32ch;
+}
+}
+
+@media screen and (max-width: 1024px){
+  .wrapper-formalizacao{
+    padding-bottom: 0rem;
+  }
+  
+  
+  .formalizacao-section{
+    grid-template-columns: 1fr;
+    margin-inline: 5rem;
+  }
+  .formalizacao-section .formalizacaoText{
+    grid-area: 1;
+  }
+
+  .formalizacao-process{
+    grid-template-columns: 1fr;
+
+  }
+
+  .formalizacao-section p, .registroMarca-section p{
+    font-size: 1.8rem;
+  }
+
+
+  .formalizacaoText{
+    margin-left: 0rem;
+
+  }
+  .formalizacao-section h2{
+max-width: 50ch;
+  }
+  .formalizacao-section p{
+    max-width: 100%;
+  }
+
+  .formalizacao-img{
+    margin: 0;
+    margin-top: 10rem;
+  }
+  .formalizacao-section {
+    margin-inline: 0rem;
+  }
+  
+  .formalizacao-process h2{
+    max-width: fit-content;
+    margin-inline: auto;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+
+  }
+
+  .formalizacao-process p{
+    margin-left: 2rem;
+    max-width: 45ch;
+    font-size: 2.4rem;
+  }
+ .formalizacaoText{
+  margin-inline: 2rem;
+ }
+ .formalizacao-img::before{
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 55rem;
+  top: 10%;
+  overflow-y: hidden;
+
+  background: linear-gradient(to right, #f4f4f4 0%, #F5B590 0%);
+}
+
+.formalizacao-img-2{
+  display: flex;
+  justify-content: end;
+}
+}
+
+
+
+
+@media screen and (max-width: 768px){
+  .wrapper-formalizacao{
+    background-image: url(/assets/img/formalizacao/formalizacao_bg_mb.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+width: 100%;
+height: 100vh;
+  }
+  .formalizacao-content p{
+    padding-top: 50vh;
+  }
+.formalizacao-section {
+  grid-template-columns: 1fr;
+}
+
+.formalizacao-img{
+  margin-top: 5rem;
+}
+
+.formalizacao-img::before{
+  content: "";
+  position: absolute;
+  width: 119%;
+ 
+  top: 8%;
+  }
+  .formalizacao-section h2{
+    font-size: 3.2rem;
+  }
+  .formalizacao-section p{
+    font-size: 2rem;
+  }
+  .formalizacao-img-2{
+    justify-content: start;
+  }
+
+  .formalizacao-img-2:nth-child(2){
+max-width: 95%;
+
+  }
+
+  .formalizacao-img-2::before{
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 42.5rem;
+    left: -10%;
+    top: 50%;
+    z-index: -1;
+    background: linear-gradient(to left, #f4f4f4 -40%, #FDFC86 -40%);
+}
+
+
+}
+
+
+
+@media only screen and (max-height: 844px)and (max-width: 468px){
+body{
+  min-height: 100%;
+}
+  .wrapper-formalizacao{
+    background-image: url(/assets/img/formalizacao/formalizacao_bg_mb.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+  width: 100%;
+    height: 100vh;
+  
+    
+  
+  }
+
+  .co-working-formalizacao{
+    background-image: url(/assets/img/formalizacao/footer_price_mb_bg.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 55vh;
+    flex-direction: column;
+    background-size: contain;
+    }
+
+
+  .formalizacao-section, .formalizacao-process{
+    grid-template-columns: 1fr;
+  }
+  .formalizacaoText{ grid-area: 1;}
+
+  .formalizacao-img, .formalizacao-img-2{
+    width: 95%;
+margin-left: 0;
+  }
+  .formalizacao-img::before{
+    content: "";
+    position: absolute;
+    width: 119%;
+    height: 35rem;
+    
+    top: 18%;
+    z-index: -1;
+    background: linear-gradient(to left, #f4f4f4 -100%, #F5B590 -100%);
+    }
+  .formalizacao-img img, .formalizacao-img-2 img{
+    max-width: 100%;
+  }
+
+  
+  .formalizacao-img-2::before{
+    content: "";
+
+    height: 25.5rem;
+    left: -10%;
+    top:63%;
+    z-index: -1;
+    background: linear-gradient(to left, #f4f4f4 -40%, #FDFC86 -40%);
+}
+
+}

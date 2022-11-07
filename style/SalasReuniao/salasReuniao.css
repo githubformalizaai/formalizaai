@@ -1,0 +1,20 @@
+.wrapper-salasReuniao{
+  background-image: url(/assets/img/salasReuniao/salasReuniao_bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+width: 100%;
+  height: 100vh;
+  padding-bottom: 15rem;
+
+}
+
+
+
+.co-working-salasReuniao{
+  background-image: url(/assets/img/salasReuniao/salasReuniao_footer.png);
+background-repeat: no-repeat;
+max-width: 100%;
+height: calc(79vh - 5rem);
+flex-direction: column;
+background-size: contain;
+}

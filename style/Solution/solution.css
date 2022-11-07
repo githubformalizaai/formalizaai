@@ -1,0 +1,706 @@
+/**************************** HOME-SECTION  *****************************/
+.wrapper-solution{
+  background-image: url(/assets/img/solucoes/solution-header-img.png);
+  background-repeat: no-repeat;
+  background-position:right top;
+
+  height: 100vh;
+  padding-bottom: 20rem;
+  background-size: contain;
+
+
+}
+
+.solution-legalizacao{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  
+}
+
+.active-solution{
+  color: #5452F6;
+}
+.solution-sec h2 ,.formalizacao-sec h2 {
+
+    font-weight: 900;
+  font-size: 4.6rem;
+  line-height: 104%;
+  max-width: 18ch;
+}
+
+.solution-sec p, .formalizacao-sec p{margin-block: 0;
+    letter-spacing: 0.135em;
+    padding-top: 12rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 145%;
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.solution-legalizacao-img{
+  position: relative;
+  background-repeat: no-repeat;
+
+}
+.solutionContainer{
+  background-color: #fff;
+  display: inline-block;
+  flex-direction: column;
+  box-shadow: 0px 29px 32px rgba(160, 172, 189, 0.34);
+  border-radius: 1.2rem;
+  padding: 1.6rem;}
+
+.solutionContainer li{
+  display: flex;
+  flex-direction: column;
+  font-family: "CircularStd-Book";
+font-style: normal;
+font-weight: 450;
+font-size: 1.8rem;
+line-height: 145%;
+
+color: #424242;
+font-weight: 450;
+gap: 20%;
+max-width: 40ch;
+margin-bottom: 1.5rem;
+position: relative;
+
+}
+.solution-item{position:relative;
+margin-left: 3rem;
+padding-block: 2rem;
+align-items: baseline;
+}
+
+.solution-item::before{
+  content: "";
+  background: url(/assets/components/check_component.svg);
+  background-repeat: no-repeat;
+position: absolute;
+width: 10rem;
+height: 10rem;
+left: -5rem;
+}
+
+.solution-legalizacao{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.text-grid-solution{
+  text-align: start;
+  margin-left: 25%;
+
+}
+
+.text-grid-solution p{
+  font-size: 2.4rem;
+  max-width: 42ch;
+  line-height: 145%;
+  }
+
+
+
+  .solution-legalizacao h2{
+    max-width: 22ch;
+  }
+
+
+  .co-working-solution{
+    background-image: url(/assets/img/solucoes/footer-solution-page.png);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: calc(79vh - 5rem);
+  flex-direction: column;
+  background-size: contain;
+  margin-top: 17rem;
+  }
+
+.grid-solution{ 
+  margin-top: 16.7rem;
+}
+  .grid-solution li > h3{ 
+    font-size: 2.4rem;
+    line-height: 104%;
+  }
+
+  .grid-solution li > p { 
+    font-size: 2rem;
+line-height: 104%;
+max-width: 31ch;
+
+  }
+  .grid-solution li{
+ padding-inline: 3rem;
+
+  }
+
+  .grid-solution-column{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 1rem;
+margin-block: 10rem;
+
+  }
+
+
+ 
+
+  .perguntasFrequentes{
+    margin-block: 10rem;
+  }
+  .perguntasFrequentes h2{ font-weight: 900;
+    font-size: 4rem;
+    line-height: 104%;
+
+  }
+
+  .grid-perguntas{
+display: grid;
+grid-template-columns: 1.2fr 1.3fr;
+
+  }
+
+  .perguntasFrequentes dt{
+    font-weight: 700;
+font-size: 2.0rem;
+line-height: 92.6%;
+color: #4b4b4b;
+position: relative;  
+}
+
+  .perguntasFrequentes dd{ 
+    font-weight: 450;
+font-size: 1.6rem;
+line-height: 152.6%;
+  }
+
+  .perguntasFrequentes dl > div{ 
+    padding: 2rem;
+    border-radius: .4rem;
+ 
+  }
+
+  .perguntasFrequentes dd{ margin-top: 2rem;
+
+  }
+  .perguntasFrequentes dt::before{
+    content: "";
+    position: absolute;  
+
+    display: inline-block;
+    width: 100%;
+    height: .1rem;
+    background-color: #bebebe;
+  bottom: -.4rem;
+  }
+  .perguntasFrequentes dt p::after{
+    content: "";
+    display: inline-block;
+    width: 1.4rem;
+    height: 1rem;
+    background: url(/assets/components/arrow_perguntas_component.svg);
+    transition: .3s;
+    background-repeat: no-repeat;
+    position: absolute;  
+
+    right: 1%;
+    }
+
+
+    .perguntasFrequentes dt:hover::after{
+      transform: rotate(180deg);
+  
+    }
+    
+    .perguntasFrequentesImg{
+      position: relative;
+    }
+    .perguntasFrequentesImg img{
+      max-width: 100%;
+      height: auto;
+    position: relative;}
+
+    .perguntasFrequentesImg::before{
+      content: "";
+      position: absolute;
+      width: 105%;
+      height: 45.5rem;
+      top: 40%;
+      z-index: -1;
+      background: linear-gradient(to right, #f4f4f4 0%, #9BBBEF 0%);
+    }    
+
+  
+.perguntasFrequentesImg .overLinks{
+  display: flex;
+  flex-direction: column;
+padding: 2rem 10rem 10rem 10rem;
+background-color: #EEEEFF;
+max-width: 30rem;
+height: 6rem;
+align-items: flex-start;
+position: absolute;
+bottom: 1.9%;
+}
+
+.overLinks h3{ 
+  font-size: 1.9rem;
+  position: relative;
+  margin-bottom: 0;
+}
+.overLinks p, .overLinks a{
+  font-size: 1.6rem;
+  display: block;
+}
+
+.overLinks a{
+padding: 1rem 3rem;
+  width: 13ch; 
+ border: .1rem solid;
+}
+
+.overLinks a:hover{
+  border: .2rem solid;
+  font-weight: 600;
+  transition: all .2s;
+}
+.overLinks h3::before{
+  content: "";
+  position: absolute;
+  background-image: url(/assets/components/phone-plus.svg);
+width: 2.6rem;
+height: 2.6rem;
+align-items: baseline;
+left: -20%;
+background-repeat: no-repeat;
+}
+
+
+    @media (max-width: 1388px){
+      .perguntasFrequentesImg::before{
+        content: "";
+        position: absolute;
+        width: 105%;
+        height: 40rem;
+        top: 40%;
+        z-index: -1;
+        background: linear-gradient(to right, #f4f4f4 0%, #9BBBEF 0%);
+      }    
+
+    }
+
+    @media screen and (max-width: 1024px){
+
+.text-grid-solution{
+  grid-area: 1;
+  transform: translateX(-15%);
+}
+.formalizacao-process{
+  padding-top: 0rem;
+}
+
+  .solution-legalizacao{
+    background-repeat: no-repeat;
+    background-position: left;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .solution-sec p{
+    padding-top: 65rem;
+  }
+  
+  .grid-solution-column.fiscal{
+    margin-top: 0rem;
+  }
+
+  .solution-sec h2{
+    max-width: 30ch;
+  }
+
+  .solution-legalizacao-img{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: end;
+  }
+  .grid-perguntas {
+    grid-template-columns: 1.2fr;
+}
+
+.perguntasFrequentesImg{
+  grid-row: 2;}
+
+
+ 
+
+.grid-solution-column{
+  overflow-y: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-inline: auto
+  ;
+}
+
+.grid-solution-column li {
+  width: 100%;
+  gap: 1rem;
+}
+
+.grid-solution-column li > p { 
+  width: 40ch
+}
+.perguntasFrequentes dl{margin-bottom: 8rem;}
+
+.solution-legalizacao h2, .solution-legalizacao a, .solution-legalizacao p{
+  margin-inline: 10rem;
+}
+.solution-legalizacao h2{
+  max-width: 26ch;
+}
+
+.solution-legalizacao p {
+  max-width: 60ch;
+
+}
+
+.formalizacao-content h2{
+padding-top: 65rem;
+max-width: 30ch;
+margin-inline: 3rem;
+}
+
+
+}
+
+
+  @media screen and (max-width: 768px)
+  {
+    .solution-legalizacao{
+      grid-template-columns: 1fr;
+    }
+
+    .solution-legalizacao{
+      position: relative;
+      margin-bottom: 10rem;
+    }
+    
+    .solution-legalizacao-img{
+ 
+      justify-content:start;
+    }
+          .solution-legalizacao::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 43rem;
+            top: 63%;
+            z-index: -1;
+            background: linear-gradient(to right, #f4f4f4 0%, #ACA9F1 0%);
+        
+            }
+    .wrapper-solution{
+    background-image: url(/assets/img/solucoes/solution-header-img.png);
+        background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+  max-width: 100%;
+    height: 70vh;
+    padding-bottom: 18rem;
+    position: relative;
+  }
+  .formalizacao-sec p{padding-top: 50vh;}
+  .solution-sec p{ padding-top: 90vh;}
+  .solution-content h2 { 
+    font-size: 3.2rem;
+    line-height: 104%;}
+
+  .overLinks{
+    max-width: 27rem;
+  }
+  .grid-perguntas{
+    grid-template-columns: 1.2fr;
+    
+      }
+      .perguntasFrequentesImg{
+        grid-row: 2;
+      }
+      .perguntasFrequentesImg::before{
+        content: "";
+        width: 0%;
+      }
+      .perguntasFrequentesContainer dl{
+        max-width: 10ch;
+      }
+      .perguntasFrequentes dt p{
+        max-width: 25ch;
+      }
+      .grid-solution-column{
+        grid-template-columns: repeat(5, 1fr);
+        overflow-x: scroll;
+      }
+ 
+      .grid-solution-column li{
+        align-items: center;
+                padding: 2rem;
+                border-radius: .8rem;
+                background-color: white;
+               width: 30rem; }
+        
+      .grid-solution-column li p{
+        max-width: fit-content;
+      }
+      .perguntasFrequentes h2{
+        font-size: 3.2rem;
+        margin-left: 3rem;
+      }
+
+      .perguntasFrequentes dl > div{
+        padding-left: 0rem;
+      }   
+.text-grid-solution{
+  grid-area: 1;
+  transform: translateX(-20%);
+}
+.text-grid-solution h2{ 
+  font-size: 2.4rem;
+}
+.solution-legalizacao a{
+  margin-bottom: 120rem;  }
+
+       .solution-legalizacao p{
+        font-size: 2.4rem;
+      }
+      .solution-legalizacao{
+      background-repeat: no-repeat;
+    background-position: left;
+    background-size: 95vw; 
+      }
+
+      .co-working-solution{
+      height: calc(50vh - 5rem);
+      margin-top: 0rem;
+      }
+      .formalizacao-content h2{
+        padding-top: 25rem;
+        max-width: 21ch;
+        margin-inline: 5rem;
+        font-size: 3.2rem;
+        
+           }
+
+           .toTopButton{
+            font-size: 1.2rem;
+           }
+           .overLinks h3{
+            font-size: 1.5rem;
+           }
+           .overLinks p, .overLinks a{
+            font-size: 1.2rem;
+           }
+
+}
+    @media screen and (max-width: 468px){
+      .solution-legalizacao{
+        grid-template-columns: 1fr;
+        margin-bottom: 5rem;
+
+      }
+      .solution-legalizacao-img img{
+        max-width: 90%;
+  height: auto;
+  margin-top: 8rem;
+
+      }
+.solution-legalizacao{
+  position: relative;
+}
+
+      .solution-legalizacao::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 28rem;
+        top: 70%;
+        z-index: -1;
+        background: linear-gradient(to right, #f4f4f4 0%, #ACA9F1 0%);
+        }
+      .wrapper-solution{
+        background-image: url(/assets/img/solucoes/solution-header-img-mb.png);
+                background-repeat: no-repeat;
+        background-position: right top;
+        background-size: cover;
+        max-width: 100%;
+        height: 50vh;
+        padding-bottom: 18rem;
+        position: relative;
+      }
+
+      .formalizacao-content h2{
+        padding-top: 15rem;
+        margin-inline-start: 3rem;
+        margin-inline-end: 1rem;
+        font-size: 3.2rem;
+      }
+
+      .solutionContainer{
+        padding: 0rem;
+        margin-inline: 3rem;
+        width: 39rem;
+        margin-top: 4rem;
+      }
+      .grid-solution-column{
+        margin-bottom: 0rem;
+      }
+      .perguntasFrequentes{
+        margin-block: 2rem;
+      }
+      .solutionContainer li{
+        font-size: 1.6rem;
+      }
+      .solution-legalizacao h2{
+        font-size: 2.4rem;
+        margin-inline: 2rem;
+      }
+      .solution-item{
+        margin-left: 1.5rem;
+      }
+      .solution-legalizacao{
+        margin-top: 0rem;
+      }
+      .solution-sec p{ padding-top: 80vh;}
+
+      .formalizacao-sec p{padding-top: 25rem;
+      
+      }
+      .solution-content h2 { 
+        font-size: 2.8rem;
+        line-height: 104%;
+        margin-left: 2rem;
+      }
+    
+    .solution-content a{
+        margin-left: 1.1  rem;
+      }
+    
+      .grid-perguntas{
+        grid-template-columns: 1.2fr;
+        
+          }
+          .perguntasFrequentesImg{
+            grid-row: 2;
+          }
+          .perguntasFrequentesImg::before{
+            content: "";
+            width: 0%;
+          }
+
+          .perguntasFrequentesContainer dl{
+            max-width: 30ch;
+          }
+     
+          .overLinks{
+            max-width: 18rem;
+          }
+
+          .swiper{
+            display: grid;
+            grid-template-columns:100.5fr;
+          }
+          .swiper h2{ display: flex;
+            width: 20ch;
+          }
+
+      .grid-solution-column{
+        grid-template-columns: repeat(5, 1fr);
+        overflow-x: scroll;
+        gap: 8rem;
+   margin-block: 4rem;
+      }
+
+
+      .grid-solution li:nth-child(4), .grid-solution li:nth-child(5){
+        padding-top: 2rem;
+      }
+
+      .text-grid-solution{
+        grid-area: 1;
+        transform: translateX(-20%);
+        margin-top: 7rem;
+      }
+   
+      .solution-item::before {
+        content: "";
+        left: -4rem;
+    }
+ 
+      .solution-legalizacao p{
+        font-size: 2rem;
+        max-width: 26ch;
+        margin-inline: 2rem;
+      }
+      .solution-legalizacao a{
+        margin-inline: 1.5rem;
+      }
+      .solution-legalizacao-img {
+        margin-top: 0rem;
+      }
+
+      .solution-legalizacao{
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 90vw      }
+
+      .perguntasFrequentes h2{
+        font-size: 2.8rem;
+
+      }
+      
+
+          .co-working-solution{
+            background-image: url(/assets/img/solucoes/footer-solution-page-mb.png);
+          background-repeat: no-repeat;
+          max-width: 100%;
+          height: 55vh;
+          flex-direction: column;
+          background-size: contain;
+          }
+          .co-working-solution{
+            background-image: url(/assets/img/solucoes/footer-solution-page-mb.png);
+          background-repeat: no-repeat;
+          max-width: 100%;
+          height: calc(50vh);
+          flex-direction: column;
+          background-size: contain;
+          margin-top: 17rem;
+          }
+      }
+        
+      @media screen and (max-width: 375px){
+        .solution-legalizacao::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 28rem;
+          top: 65%;
+             }
+             .formalizacao-sec p{padding-top: 10rem;}
+
+
+             .formalizacao-content h2 {
+              padding-top: 25rem;
+          
+              margin-inline-start: 2rem;
+              margin-inline-end: 1rem;
+              font-size: 2.6rem;
+          
+      }
+      .formalizacao-img::before {
+                top: 8%;
+      }
+    
+
+
+    }

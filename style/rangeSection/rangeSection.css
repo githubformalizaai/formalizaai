@@ -1,0 +1,119 @@
+
+.rangeSection, .rangeSection-Fiscal{
+  margin-block: 8rem;
+  display: grid;
+  grid-template-columns: 1.4fr 1.6fr;
+  
+  }
+  
+  .rangeSection-Fiscal{margin-block: 0rem;}
+  .text-grid{
+  text-align: start;
+  margin-inline: auto;
+  }
+  
+  .text-grid  h2, .text-grid-solution h2{
+  font-size: 4rem;
+  max-width: 20ch;
+  
+  }
+  
+  
+  .text-grid span, .text-grid-solution span{
+  font-size: 1.8rem;
+    line-height: 145%;
+  margin-top: 10rem;
+  }
+  
+  .text-grid p{
+  font-size: 2.4rem;
+  max-width: 30ch;
+  line-height: 145%;
+  }
+
+  .swiper-slide{
+    margin-left: 1rem;
+  }
+  @media screen and (max-width: 1024px){
+    .rangeSection, .rangeSection-Fiscal {
+   
+      display: grid;
+      grid-template-columns: 1fr;
+margin-top: 0rem;
+
+  }
+.contact-home{
+  grid-row: 2;
+  padding-top: 5rem;
+  max-width: 95vw;
+  height: auto;
+}
+
+.solutionContainer{
+  margin-inline: auto;
+}
+
+.solutionContainer{
+  width: 50%;
+margin-left: 13rem;
+}
+
+.text-grid-solution h2{
+  max-width: 20ch;
+  margin-top: 3rem;
+  
+}
+}
+
+@media screen and (max-width: 768px){
+
+  .contact-home{
+    padding-top: 7rem;
+    max-width: 95vw;
+    height: auto;
+  }
+  .rangeSection, .rangeSection-Fiscal{
+    margin-block: 5rem;
+  
+  }
+
+  .text-grid-solution h2{
+    font-size: 2.8rem;
+  }
+  .solutionContainer {
+    width: 80%;
+    margin-left: 3rem;
+  }
+}
+
+
+@media screen and (max-width: 468px){
+.rangeSection, .rangeSection-Fiscal{
+  margin-block: 1rem 10rem;
+
+}
+
+.text-grid-solution span{
+  margin-top: 50rem;
+}
+.text-grid-solution h2{
+  font-size: 2.8rem;
+  max-width: 30ch;
+}
+.text-grid h2{max-width: max-content;
+font-size: 2.8rem;
+margin-right: 5rem;
+}
+.text-grid{
+margin-top: 0rem;
+margin-left: 10%;
+}
+.text-grid-cont{
+  margin-left: 0;
+}
+
+.solutionContainer {
+  width: 90%;
+ 
+}
+}

@@ -1,0 +1,261 @@
+
+
+.co-working-home{
+  background-image: url(/assets/img/home/Footer-bg.png);
+background-repeat: no-repeat;
+max-width: 100%;
+height: calc(90vh - 5rem);
+flex-direction: column;
+background-size: contain;
+margin-top: 5rem;
+}
+
+
+
+.co-working-home h1, .co-working-preco h1, .co-working-solution h1, .co-working-formalizacao h1{
+  padding-top: 6rem;
+  padding-inline: 10rem;
+  font-weight: 800;
+font-size: 6.4rem;
+line-height: 98%;
+max-width: 14ch;
+}
+.co-working-home a, .co-working-preco a, .co-working-solution a, .co-working-formalizacao a{
+margin-left: 9rem;}
+
+
+
+footer{ overflow: hidden;
+  padding: .8rem;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 7rem;
+  opacity: 1 !important;
+}
+
+footer .copyright{display: flex;
+flex-direction: row;}
+footer .copyright img{
+max-width: 16rem;
+height: auto;
+
+}
+
+footer .copyright p{
+  max-width: 60ch;
+font-size: 1.4rem;
+line-height: 1.8rem;
+margin-left: 2rem;
+
+}
+
+footer .social-media a{
+gap: 1rem;
+
+
+}
+
+
+footer .copyright a{
+  margin-top: 1.4rem;
+  margin-left: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: underline;
+
+}
+
+
+/* FOOTER - PRICE SEC */
+
+.co-working-preco{
+  background-image: url(/assets/img/precos/footer-price-page.png);
+background-repeat: no-repeat;
+max-width: 100%;
+height: calc(79vh - 5rem);
+flex-direction: column;
+background-size: contain;
+margin-top: 16.7rem;
+}
+
+
+@media screen and (max-width: 1024px){
+  .co-working-home h1, .co-working-preco h1, .co-working-solution h1, .co-working-formalizacao h1{
+    font-size: 5rem;
+    padding-top: 3rem;
+  }
+
+
+
+@media screen and (max-width: 768px){
+  .co-working-home{
+    background-image: url(/assets/img/home/footer_mb_bg.png);
+    background-size: cover;
+
+ 
+}
+
+.co-working-home.Marcas{
+  margin-top: 10rem;
+
+}
+
+footer{
+  position: relative;
+  margin-block: 8rem;
+  overflow-x: hidden;
+  padding-bottom: 8rem;
+  opacity: 1;
+}
+
+footer  .social-media{
+  display: flex;
+order: 3;
+align-self: flex-end;
+transform: translate(-7rem, 8rem);
+gap: 1rem;
+
+
+}
+
+footer .footer-text{
+  width: 60ch;
+}
+
+
+
+.co-working-preco{
+ 
+    background-image: url(/assets/img/precos/footer_price_mb_bg.png);
+    background-size: cover;
+
+ 
+}
+
+.co-working-home h1, .co-working-preco h1, .co-working-solution h1, .co-working-formalizacao h1{
+font-size: 5rem;
+  padding-bottom: 0rem;
+  }
+  
+
+}
+
+@media screen and (max-width: 468px){
+  .co-working-home{
+    background-image: url(/assets/img/home/footer_mb_bg.png);
+    background-repeat: no-repeat;
+width: auto;
+  height: calc(80vh);
+    flex-direction: column;
+    background-size: contain;
+    margin-block: 0rem;
+  }
+
+  footer .social-media{
+    transform: translate(-11rem, 6rem );
+    
+  }
+
+
+
+footer{
+margin-block: 8rem 0rem;
+  padding-bottom: 14rem;
+  
+}
+
+  footer .copyright p {
+    max-width: 31ch;
+  }
+
+.co-working-home h1, .co-working-preco h1, .co-working-solution h1, .co-working-formalizacao h1{
+  font-size: 5rem;
+  padding-inline: 5rem;
+
+padding-bottom: 0rem;
+}
+.co-working-formalizacao{
+  margin-top: 12rem;
+  height: 80vh;
+  width: 2010%;
+  background-image: url(/assets/img/formalizacao/footer_price_mb_bg.png);
+}
+
+.co-working-home a, .co-working-preco a, .co-working-solution a, .co-working-formalizacao a{
+  margin-left: 4rem;}
+
+.co-working-home a{display: block;
+  margin-top: 5rem;
+}
+
+
+footer .copyright img {
+max-width: 6rem;
+}
+.pre-co-working{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+}  
+}
+@media screen and (max-width: 400px){
+  .co-working-home{
+    background-image: url(/assets/img/home/footer_mb_bg.png);
+    background-repeat: no-repeat;
+width: auto;
+  height: calc(60vh);
+    flex-direction: column;
+    background-size: contain;
+    margin-block: 0rem;
+  }
+
+  footer .social-media{
+    transform: translate(-15rem, 6rem );
+  }
+  }
+
+  @media only screen and (max-width: 1024px) and (max-height: 1100px) {
+    .co-working-home, .co-working-formalizacao, .co-working-preco{
+      height: calc(50vh - 2rem);
+  
+    }
+  
+  }
+   @media only screen and (max-width: 1024px) and (max-height: 900px) {
+
+  }
+  
+   @media only screen and (max-width: 1024px) and (max-height: 800px) {
+    .co-working-home, .co-working-formalizacao, .co-working-preco{
+      height: calc(50vh - 2rem);
+  
+    }
+  
+  }
+  
+  
+   @media only screen and (max-width: 1024px) and (max-height: 700px) {
+    .co-working-home, .co-working-formalizacao, .co-working-preco
+    {
+      height: calc(60vh);
+  
+    }
+  }
+  
+  
+   @media only screen and (max-width: 1024px) and (max-height: 600px) {
+    .co-working-home, .co-working-formalizacao, .co-working-preco{
+      height: calc(70vh);
+  
+    }
+    }
+  
+    @media only screen and (max-width: 1024px) and (max-height: 500px) {
+      .co-working-home, .co-working-formalizacao, .co-working-preco{
+        height: calc(90vh);
+    
+      }
+      }

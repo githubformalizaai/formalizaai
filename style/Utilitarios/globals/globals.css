@@ -1,0 +1,47 @@
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  min-width: 100%;
+}
+
+html {
+  /* chrome://flags/#smooth-scrolling */
+  scroll-behavior: smooth;
+}
+
+.container {
+
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 135rem;
+  margin-left: 4rem;
+}
+
+
+:root {
+  font-size: 62.5%;
+  /* 1rem = 10px */
+  overflow-x: hidden;
+  --CircularBlack: font-family: "CircularStd-Black";
+  min-width: 100%;
+
+}
+
+
+a {
+  text-decoration: none;
+  font-family: "Circular-std-medium-500", sans-serif;
+  font-size: 1.6rem;
+  color: #000;
+  padding-inline-start: 1rem;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+
+ul li {
+  list-style: none;
+}

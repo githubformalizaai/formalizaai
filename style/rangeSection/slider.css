@@ -1,0 +1,95 @@
+
+
+.sliderContainer{
+background-color: #fff;
+display: inline-block;
+flex-direction: column;
+box-shadow: 0px 29px 32px rgba(160, 172, 189, 0.34);
+border-radius: 12px;
+padding: 16px;
+}
+
+.slider-texts{
+  display: flex;
+  flex-direction: column;
+
+  
+  }
+.sliderContainer li{
+  font-family: "CircularStd-Book", sans-serif;
+font-style: normal;
+font-weight: 450;
+font-size: 1.8rem;
+line-height: 145%;
+
+color: #424242;
+font-weight: 450;
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 20%;
+max-width: 40ch;
+margin-bottom: 1.5rem;
+}
+
+.slider-li .flex{
+grid-template-columns: 1fr 1fr;
+}
+
+.slider-texts .flex{
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+  .sliding .slider{
+--webkit-appearance: none;
+cursor: pointer;
+width: 50vh;
+height: 1rem;
+outline: none;
+opacity: 0.8;
+-webkit-transition: 0.2s;
+transition: opacity 0.2s;
+background:  linear-gradient(90deg, rgb(193, 206, 232) 20%, #C1CEE8 20%);
+border-radius: 1rem;
+box-shadow: 0 .5px 1px .5px #31313145;
+}
+
+
+
+  .blue-card{ padding: 1rem;
+  max-width: fit-content;
+  background-color: #EEF8FF ;
+  border-radius: .8rem;
+
+}
+
+.sliding .slider:hover{
+  opacity: 1;
+}
+
+.sliding .slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.6rem;
+height: 1.6rem;
+background-color: #0053FC;
+border-radius: 50%;
+cursor:pointer
+}
+
+.sliding .slider::-moz-range-thumb{
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #0053FC;
+  border-radius: 50%;
+  cursor:pointer
+
+}
+
+.rangeSection span{ font-weight: 550;}
+
+
+
+

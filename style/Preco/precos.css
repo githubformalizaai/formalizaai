@@ -1,0 +1,530 @@
+  /**************************** HOME-SECTION  *****************************/
+.wrapper-preco{
+  background-image: url(/assets/img/precos/Price-header-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+width: 100%;
+  height: 100vh;
+  padding-bottom: 10%;
+
+}
+
+.active-price{
+  color: #5452F6;
+}
+.price-sec h2 {
+
+  margin-bottom: 2.8rem;
+  font-weight: 900;
+  font-size: 4.6rem;
+  line-height: 104%;
+  max-width: 17ch;
+  
+  text-align: start;
+}
+
+.price-content p { 
+  margin-block: 0;
+  letter-spacing: 0.135em;
+  font-weight: 700;
+font-size: 1.6rem;
+line-height: 145%;
+margin-left: 0.5rem;
+}
+
+.text-plan{
+margin-bottom: 0rem;
+}
+.price{
+  margin-top: 17rem;
+
+}
+.price h2{ 
+  font-weight: 900;
+font-size: 4rem;
+line-height: 104%;
+max-width: 23ch;
+}
+.prices-cards > ul {flex-direction: column;}
+
+.price-item p{ 
+  max-width: 30ch;
+  font-weight: 450;
+font-size: 2.0rem;
+line-height: 104%;
+}
+
+.price-item h2{
+  font-weight: 450;
+font-size: 3.2rem;
+line-height: 104%;
+}
+
+.price-item{position: relative;
+
+  cursor: pointer;}
+
+.price-item:first-child{
+  animation: slide 1s;
+}
+
+.price-item:nth-child(2){
+  animation: slide 1s;
+}
+
+.price-item:nth-child(3){
+  animation: slide 1s;
+}
+.price-item h2{
+  max-width: 100%;
+}
+
+
+
+
+
+.price-item::before{
+  content: "";
+  position: absolute;
+  width: .8rem;
+  height: 100%;
+  background-color: #D9D9D9;
+  left: -1.5%;
+  
+}
+.active-price-item::before{
+  content: "";
+  background-color:var(--cor-botao-p);
+ }
+.grid-price{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 16.7rem;
+  }
+  
+
+ 
+.prices-values{ display: flex;
+flex-direction: column;
+display: inline;
+background-color: #ffff;
+max-width: 95vh;
+max-height: 100%;
+box-shadow: 0px 2.9rem 3.2rem rgba(160, 172, 189, 0.34);
+border-radius: .8rem;
+padding-bottom: 5rem;
+
+}
+
+ #legalizacaoEmpresaPlan { max-height: 60vh;}
+
+ .oneItem{display: flex;
+  flex-direction: column;
+  display: inline;
+  background-color: #ffff;
+  max-width: 95vh;
+  box-shadow: 0px 2.9rem 3.2rem rgba(160, 172, 189, 0.34);
+  border-radius: .8rem;
+  padding-bottom: 5rem;
+  max-height: 10vh;
+}
+
+.escritorioVirtual ul{
+  display: inline;
+}
+.escritorioVirtual h2{
+  font-size: 3.2rem;
+  font-weight: 450;
+  line-height: 104%;
+  max-width: 50ch;
+  padding: 1rem 4.5rem;
+  animation: slide 1s;
+}
+
+  .escritorioVirtual h3{
+    font-weight: 450;
+font-size: 2.0rem;
+line-height: 145%;
+margin-top: 2rem;
+  }
+
+.escritorioVirtual p{
+font-weight: 450;
+font-size: 1.6rem;
+line-height: 104%;
+/* or 17px */
+max-width: 35ch;
+}
+
+.escritorioVirtual .blue-price{
+  font-weight: 900;
+font-size: 2.4rem;
+line-height: 145%;
+}
+
+.escritorioVirtualValues span{
+  transform: translateY(-20%);
+
+}
+.escritorioVirtualValues {
+  display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.escritorioVirtualValues .price-plan{
+  font-weight: 450;
+font-size: 1.6rem;
+line-height: 104%;
+margin-right: 5rem;
+position: relative;
+}
+.escritorioVirtualValues .price-plan:hover{
+  font-weight: 700;
+  transition: transform 0.2s;
+}
+.escritorioVirtualValues .price-plan::before {
+content: "";
+position: absolute;
+width: 90%;
+height: .1rem;
+background-color: #313131;
+
+top: 3rem;
+}
+
+.escritorioVirtualValues .price-plan:hover::before{
+  content: "";
+  height: .1rem;
+  transition: transform 0.1s;
+}
+
+
+
+.escritorioVirtual  li{
+  position: relative;
+}
+.escritorioVirtual  li:nth-child(2),.escritorioVirtual  li:nth-child(3){
+padding-top: 1rem;
+}
+.before-line::before {
+  content: "";
+position: absolute;
+height: .1rem;
+width: 83%;
+background-color: #D9D9D9;
+top: 1rem;
+left: 3rem;
+}
+
+
+
+
+
+.active-item{
+  animation: slide 1s forwards;
+  display: initial;
+}
+
+
+.disable-item{
+  opacity: 0;
+  display: none;
+}
+
+
+@keyframes slide{ 
+  from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+}
+
+
+@keyframes blue-price{ 
+  from{
+transform: translateX(0);
+  }
+  to{transform: translateY(100%);
+  
+  }
+}
+@media screen and (max-width: 1024px){
+
+  .price-content h2{
+    padding-top: 55rem;
+    max-width: 30ch;
+
+  }
+  .price h2{
+    font-size: 2.8rem;
+  }
+  .price-content p{
+    padding-top: 0rem;
+  }
+  .grid-price{
+    grid-template-columns: 1fr;
+    margin-bottom: 8rem;
+
+    margin-inline: 3rem;
+  }
+  .prices-cards{
+    margin-left: 0rem;
+  }
+  .prices-cards > ul {
+    flex-direction: row;
+    gap: 5rem;
+    overflow-y: scroll;
+  }
+
+  .price{
+    margin-top: 10rem;
+  }
+
+  .price .p-text{
+    max-width: 30ch;
+    margin-inline: auto;
+    text-align: center;
+  }
+  .price-item{
+    margin-top: 3rem;
+  }
+  .price-item h2{
+    font-size: 2.4rem;
+    max-width: 20ch;
+    margin-top: 1rem;
+
+  }
+  
+  .price-item li:first-child{
+    width: 50ch;
+  height: 20rem;
+  background-color: white;
+  padding: 2rem 5rem 0 1rem;
+  }
+  
+  #registroMarcas-card{
+    width: 79ch;
+    height: 15rem;
+
+  }
+  .price-item p{font-size: 1.6rem;
+  
+  }
+  .escritorioVirtual h2{
+    padding: 0rem 2.5rem;
+    margin-block-end: 0rem;
+  }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+  .wrapper-preco{
+    background-image: url(/assets/img/precos/price-header-img-mb.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    background-size: calc(100vh);
+    position: relative;
+  }
+
+
+
+  .price-content h2{ 
+    font-size: 3.2rem;
+    line-height: 104%;
+    max-width: 35ch;  padding-top: 20rem;
+    margin-inline: auto;
+      }
+  
+      .price-content a{
+        margin-left: 1rem;
+      }
+      .grid-price{
+        grid-template-columns: 1fr;
+      }
+
+
+      .prices-cards{
+        overflow-x: auto;
+      }
+.prices-cards > ul{
+ flex-direction: row;
+  gap: 5rem;
+}
+
+
+#registroMarcas-card{
+  width: 43ch;
+overflow-x: hidden;
+
+}
+}
+
+.prices-values{
+  margin-top: 6.2rem;
+  margin-left: 5rem;
+    }
+
+
+    #prices-values{
+      margin-top: 6.2rem;
+      margin-left: 1rem;
+      width: 100%;
+      max-height: 100%;
+      margin-inline: auto
+      ;
+    }
+
+
+    @media screen and (max-width: 468px){
+
+      #legalizacaoEmpresaPlan{
+        margin-block: 0rem ;
+      }
+      .wrapper-preco{
+        background-image: url(/assets/img/precos/price-header-img-mb.png);
+        background-repeat: no-repeat;
+        background-position: top;
+  
+        background-size: calc(100vh - 10rem);
+        position: relative;
+      }
+      #prices-values{
+  
+        max-width: 65vh;
+      
+    
+      }
+      .price-content a {
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+
+
+      .price-content p{
+        display: none;
+        }
+      
+        .price-content h2 { 
+          font-size: 2.8rem;
+          line-height: 104%;
+          max-width: 19ch;  
+          padding-top: 35rem;
+          margin-inline: auto;
+          text-align: center;
+            }
+        
+      
+            .grid-price{
+              grid-template-columns: 1fr;
+            }
+      
+            .prices-cards{
+              overflow-x: auto;
+            }
+
+      .prices-cards > ul
+      {
+        overflow-y: hidden;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-left: .5rem;
+        gap: 5rem;
+      }
+      
+      .price-item h2{
+        font-size: 2.4rem;
+        max-width: 20ch;
+      }
+      
+      .price-item li:first-child{
+   
+        width: 50ch;
+      height: 20rem;
+      background-color: white;
+      padding: 2rem 5rem 0 1rem;
+      }
+      
+      .price-item p{font-size: 1.6rem;
+      
+      }
+
+      .prices-values{
+        margin-top: 6.2rem;
+        margin-left: 1rem;
+        max-width: 37rem;
+        max-height: 90vh;
+      }
+
+      .escritorioVirtual p{
+        max-width: 26ch;
+        margin-inline: 2.5rem;
+      }
+
+
+      .price-item.registroMarcas-card{
+        width: 25rem;
+      overflow: hidden;
+      height: 15.5rem;
+      
+      }
+
+    }
+
+    @media screen and (max-width: 400px){
+      #prices-values {
+        max-width: 59vh;
+        }
+    }
+
+    @media only screen  and (max-height: 1050px) {
+         .price-content h2{
+        padding-top: 80rem;
+      }
+    }
+     @media only screen  and (max-height: 900px) {
+      .price-content h2{
+        padding-top: 35rem;
+      }
+    }
+    
+     @media only screen  and (max-height: 800px) {
+      .price-content h2{
+        padding-top: 30rem;
+      }
+    }
+    
+    
+     @media only screen  and (max-height: 700px) {
+      .price-content h2{
+        padding-top: 25rem;
+      }
+    
+    }
+    
+    
+     @media only screen  and (max-height: 600px) {
+      .price-content h2{
+        padding-top: 20rem;
+      }
+    
+      }
+    
+      @media only screen  and (max-height: 500px) {
+        .price-content h2{
+          padding-top: 15rem;
+        
+        }
+        }
+    
+        @media only screen  and (max-height: 400px) {
+          .price-content h2{
+            padding-top: 5rem;
+          
+          }
+          }
+    

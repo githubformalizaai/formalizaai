@@ -1,0 +1,364 @@
+.optionCardsSection h1 {
+  font-weight: 900;
+font-size: 4rem;
+line-height: 104%;
+text-align: center;
+margin-top: 17rem;
+}
+.grid{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.grid-home {
+background: url(/assets/img/home/solution-bg.png);
+width: auto;
+max-height: 100%; 
+ background-repeat: no-repeat;
+background-position: right;
+background-size: 55vw;
+
+position: relative;
+} 
+
+.grid-home::after {
+content: "";
+position: absolute;
+width: 100%;
+height: 62rem;
+top: .1rem;
+z-index: -1;
+background: linear-gradient(to right, #f4f4f4 40%, #F5B590 40%);
+
+}
+
+.pre-co-working h3{
+  margin-inline: auto;
+margin-block: 14rem;
+font-size: 4.8rem;
+max-width: 35ch;
+font-weight: 400;
+
+}
+
+.pre-co-working h3 span {
+  color: #6D47EE;
+  background-color: #D4E4FF;
+  font-weight: 600;
+}
+.registroPatentes h3 {
+max-width: 14ch;
+}
+
+.card-solution {
+margin-top: .8rem;
+background-color: white;
+display: flex;
+flex-direction: row;
+max-width: 60rem;
+border-radius: .8rem;
+padding: .5rem;
+box-shadow: 0px 29px 32px rgba(160, 172, 189, 0.34);
+
+}
+
+
+.card-solution img {
+margin-block: 1.8rem;
+margin-left: 1.8rem;
+max-width: 6.5rem;
+height: auto;
+
+}
+
+.card-solution p {
+font-size: 1.6rem;
+line-height: 124%;
+/* or 1.7rem */
+max-width: 30ch;
+margin-inline: 1.9rem;
+margin-bottom: 4rem;
+
+
+}
+
+.card-solution h3 {
+font-size: 2rem;
+line-height: 104%;
+/* or 2.3rem */
+margin-inline: 1.8rem;
+font-weight: 450;
+}
+
+.salasReuniao a{
+margin-top: 1rem;
+
+}
+
+.salasReuniao
+{
+opacity: 0;}
+
+
+
+@media (max-width:1200px) {
+  .grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .espacosTrabalho{
+    grid-area: auto;
+  }
+}
+
+.card-solution-item{ 
+  margin-left: 5rem;
+}
+
+.img-bg{
+position: relative;
+top: -3vh;
+
+}
+
+
+
+.contact-home img{ 
+ width:100%;
+height: auto;
+}
+
+
+.contact-home img, .text-grid{
+  margin-top: 10rem;
+}
+
+
+@media (max-width: 1370px){
+
+.img-bg{
+  top: -3.5rem;
+}
+
+
+}
+
+@media screen and (max-width: 1024px){
+  .contact-home::before{
+    content: "";
+    height: 70rem;
+    top: 60%;
+    background:#C1CEE8;
+  
+  }
+  .contact-home img{
+    grid-area: 2;
+  }
+
+  .card-solution{
+    max-width: 50rem;
+  }
+  .card-solution p {
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+  }
+  .card-solution-item{
+    margin-left: 0rem;
+  }
+
+  .pre-co-working h3{
+    margin-inline: auto;
+    font-size: 3.2rem;
+  }
+}
+
+
+
+@media (max-width: 884px){
+  .contact-home img{ 
+    max-width:100%;
+   height: auto;
+   }
+   .contact-home::before{
+    content: "";
+    height: 75rem;
+    top: 50%;
+
+  
+  }
+}
+
+
+@media screen and (max-width: 768px){
+.grid{ 
+  flex-direction:  row;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.contact-home::before{
+  content: "";
+  height: 50rem;
+  top: 66%;
+}
+
+.card-solution{position: relative;
+  
+}
+.card-solution-item{
+  width: 50rem;
+
+}
+
+.grid-home::after {
+  content: "";
+  position: absolute;
+  top: 17rem;
+  height: 50%;
+  z-index: -1;
+  width: 325%;
+  background: #F5B590;}
+
+.arrow-link-2{ display: none;}
+
+.grid-home {
+  padding-top: 100%;
+  overflow-y: hidden;
+  background-size:calc(100vw - 4rem);
+  background-position: center;
+} 
+
+.grid-home::after {
+  content: "";
+  position: absolute;
+  top: 10rem;
+  height: 75%;
+  z-index: -1;
+  background: #F5B590;
+}
+
+.pre-co-working h3{
+  font-size: 2.8rem;
+  max-width: 32ch;
+  font-weight: 400;
+  text-align: center;
+  margin-inline: auto;
+  margin-block-start: 10rem;
+  margin-block-end: 5rem;
+  }
+  
+}
+
+
+@media screen and (max-width: 468px){
+  .grid{ 
+    flex-direction:  row;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .card-solution{position: relative;
+    max-width: 34rem;
+    margin-left: 2rem;
+    height: 16rem;
+  }
+  .card-solution-item{
+    width: 50rem;
+  
+  }
+  .optionCardsSection h1{
+    font-size: 2.8rem;
+    margin-block: 10rem 0rem;
+  }
+  .contact-home img{ 
+    max-width:99%;
+   height: auto;
+   }
+  .contact-home::before{
+    content: "";
+    height: 40rem;
+    top: 70%;
+  }
+  
+  .arrow-link-2{ display: none;}
+  
+  .grid-home {
+    padding-top: 30rem;
+    overflow-y: hidden;
+    background-size:calc(100vw - 2rem);
+    background-position: center;
+    padding-bottom: 3rem;
+  } 
+  
+  .grid-home::after {
+    content: "";
+    position: absolute;
+    top: 7.5rem;
+    height: 72%;
+    z-index: -1;
+  width: 325%;
+    background: #F5B590;
+  }
+
+  .pre-co-working {
+  padding: 0;}
+  .pre-co-working h3{ margin-inline: 2rem;
+    font-size: 2.8rem;
+    max-width: 23ch;
+    font-weight: 400;
+    text-align: center;
+    }
+    
+
+
+
+}
+
+@media (min-width:1456px)  {
+  .contact-home::before{
+    content: "";
+    height: 46rem;
+    background: linear-gradient(to left, #f4f4f4 50%, #C1CEE8 50%);
+   top: 25rem;
+  }
+
+  
+.side-bar-form{
+margin-left: 5rem;}
+ 
+
+
+  .wrapper-formalizacao{
+    background-image: url(/assets/img/formalizacao/formalizacao_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: auto;
+width: 150%;
+    padding-bottom: 20rem;
+  background-size: contain;
+  
+  }
+
+  .call-action-bg{
+    overflow-y: scroll;
+    width: 50%;
+    height: 110%;
+    position: absolute;
+    background-color: white;
+    opacity: 1;
+    right: -100%;
+    
+    animation: fade-in 1.8s forwards;
+  
+  }
+
+  .formalizacao-img::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 45rem;
+        top: 30%;
+    z-index: -1;
+    background: linear-gradient(to left, #f4f4f4 15%, #F5B590 15%);
+  }  
+
+}

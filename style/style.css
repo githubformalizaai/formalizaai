@@ -1,0 +1,48 @@
+/* GLOBALS */
+ 
+@import "/style/Utilitarios/globals/globals.css";
+@import "/style/Utilitarios/components.css";
+@import "/style/Utilitarios/cores.css";
+@import "/style/Utilitarios/tipografia.css";
+
+/* HEADER */
+@import "/style/header/header.css";
+@import "/style/header/hamburguerMenu.css";
+/* HOME */
+@import "/style/home/home.css";
+@import "/style/home/toggleMenu.css";
+@import "/style/home/sideBar.css";
+
+/* PREÇOS */
+
+@import "/style/Preco/precos.css";
+
+/* FORMALIZACAO */
+
+@import "/style/formalizacao/formalizacao.css";
+/* solutions */
+
+@import "/style/Solution/solution.css";
+/* PARCEIROS */
+
+@import "/style/parceiros/parceiros.css";
+
+/* registroMarca */
+
+@import "/style/registroMarca/registroMarca.css";
+/* CARD-SECTION */
+
+@import "/style/cardSection/cardSection.css";
+
+/* OPTION-CARDS-SECTION */
+
+@import "/style/optionCardsSection/optionCardsSection.css";
+
+/* RANGE-SLIDE-SECTION */
+
+@import "/style/rangeSection/rangeSection.css";
+@import "/style/rangeSection/slider.css";
+
+/* FOOTER */
+
+@import "/style/footer/footer.css";

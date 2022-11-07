@@ -1,0 +1,303 @@
+/**************************** HOME-SECTION  *****************************/
+.wrapper-home{
+  background-image: url(/assets/img/home/header-top-bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+max-width: 100%;
+  height: 100vh;
+  padding-bottom: 18rem;
+  position: relative;
+}
+
+.home-sec h2, .solution-legalizacao h2 {
+
+  margin-bottom: 2.8rem;
+  font-weight: 900;
+  font-size: 4.4rem;
+  line-height: 104%;
+  max-width: 70rem;
+  padding-top: 4%;
+}
+
+.home-sec p, .solution-legalizacao p, .registroMarca-sec p  {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 145%;
+  max-width: 39ch;
+
+}
+/*
+ SUCESS-MSG-FORM
+ */
+ .sucess-bg{  display: none;
+  justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.5);
+height: 100vh;
+width: 100%;
+position: absolute;
+top: 0%;
+z-index: 100;
+
+}
+.sucess-msg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+background-color: white;
+border-radius: .8rem;
+width: 50vh;
+padding: 2rem 5rem;
+}
+
+.sucess-msg h3{
+  max-width: 30ch;
+  font-size: 2.2rem;
+line-height: 3.5rem;
+font-weight: 450;
+}
+.sucess-msg p{ font-size: 1.6rem;
+  font-weight: 450;
+  text-align: center;
+  line-height: 2.8rem;
+
+
+}
+
+.sucess-msg button{
+  cursor: pointer;
+}
+
+
+
+
+
+@keyframes showSucess {
+  from{ opacity: 0;}
+  to{ opacity: 1;}
+  
+}
+
+
+  
+@media(max-width: 1200px){
+  .home-sec h2{
+    margin-top: 10%;
+    font-size: 4rem;
+  }
+  .home-sec p, .solution-legalizacao p, .registroMarca-sec p  {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 145%;
+    max-width: 35ch;
+  
+  }
+}
+
+
+@media(max-width: 1080px){
+  .home-sec h2{
+    margin-top: 10%;
+    font-size: 3.8rem;
+  line-height: 104%;
+  max-width: 70rem;
+  }
+
+  .home-sec p, .solution-legalizacao p, .registroMarca-sec p  {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 145%;
+    max-width: 30ch;
+  
+  }
+
+  }
+  @media screen and (max-width: 1024px){
+.home-content h2{
+  margin-top: 75rem;
+  max-width: 50ch;
+}
+.home-content p {
+max-width: 50ch;
+}
+.home-content{
+  margin-left: 10rem;
+}
+
+.home-img-mb{
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-home:nth-child(1)::after{
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 70rem;
+
+  top: 62%;
+  z-index: -10;
+  background: linear-gradient(to right, #f4f4f4 0%, #C1CEE8 0%);
+overflow-y: hidden;
+}
+
+  }
+
+  @media screen and (max-width: 850px){
+    .contact-home:nth-child(1)::after{
+      content: "";
+      position: absolute;
+      width: 200%;
+      height: 65rem;
+    
+      top: 60%;
+      z-index: -10;
+      background: linear-gradient(to right, #f4f4f4 0%, #C1CEE8 0%);
+      overflow-y: hidden;
+    }
+  
+  }
+  @media screen and (max-width: 768px) {
+    .home-content{
+      margin-inline: 1rem ;
+    }
+    .home-sec h2, .home-sec a, .home-sec p{
+      margin-left: 4rem;
+
+    }
+    .home-sec h2{
+      margin-top: 10rem;
+      font-size: 3.2rem;
+    line-height: 104%;
+    max-width: 40ch;
+    }
+  
+    .wrapper-home{
+      background-image: url(/assets/img/home/header-top-bg.png);
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: cover;
+    max-width: 100%;
+      height: 70vh;
+      padding-bottom: 18rem;
+      position: relative;
+   
+    }
+  
+    .contact-home:nth-child(1)::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 45rem;
+    
+      top: 72%;
+      z-index: -10;
+      background: linear-gradient(to right, #f4f4f4 0%, #C1CEE8 0%);
+    }
+  .rangeSection.rangeHome{
+    margin-block: 0rem ;
+  
+  }
+  .text-grid{
+    margin-inline: 0rem;
+  }
+  }
+
+  @media screen and (max-width: 468px){
+    
+    .home-sec h2,  .price-content h2{
+      margin-top: 50rem;
+      font-size: 3.2rem;
+    line-height: 104%;
+    max-width: 18ch;
+    margin-left: 4rem;
+    }
+
+    .home-sec p{
+      margin-left: 4rem;
+    }
+  
+    .wrapper-home{
+      background-image: url(/assets/img/home/header-top-bg.png);
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: cover;
+    max-width: 100%;
+      height: 40vh;
+      padding-bottom: 10rem;
+      position: relative;
+   
+    }
+  
+    .contact-home:nth-child(1)::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 30rem;
+    
+      top: 75%;
+      z-index: -10;
+      background: linear-gradient(to right, #f4f4f4 0%, #C1CEE8 0%);
+      overflow-y: hidden;
+    }
+
+  }
+
+  .dropdown li { display: none;}
+ .ShowToggle li {display: block; 
+    background-color: none;
+  box-shadow: none;
+
+ }
+
+ 
+@media only screen  and (max-width:768px) and (max-height: 1050px) {
+  .home-sec h2{
+    margin-top: 50rem;
+  }
+  .price-content h2{
+    padding-top: 30rem;
+  }
+}
+@media only screen  and (max-width:768px)  and (max-height: 900px) {
+  .home-sec h2,  .price-content h2{
+    margin-top: 45rem;
+  }
+}
+
+@media only screen  and (max-width:768px)  and (max-height: 800px) {
+  .home-sec h2,  .price-content h2{
+    margin-top: 40rem;
+  }
+}
+
+
+@media only screen  and (max-width:768px) and (max-height: 700px) {
+  .home-sec h2,  .price-content h2{
+    margin-top: 35rem;
+  }
+
+}
+
+
+@media only screen  and (max-width:768px)  and (max-height: 600px) {
+  .home-sec h2,  .price-content h2{
+    margin-top: 30rem;}
+
+  }
+
+  @media only screen  and (max-width:768px)  and (max-height: 500px) {
+    .home-sec h2,  .price-content h2{
+      margin-top: 25rem;}
+  
+    }
+
+
+
+
+
+
+

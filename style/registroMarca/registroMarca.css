@@ -264,6 +264,9 @@ align-items: center;
 .prices-cards{
 grid-row: 2;
 }
+.prices-cards.gridPrice{
+  grid-row: 1;
+  }
 .registroMarcas-card2{
   transform: translateX(-10rem);
 }

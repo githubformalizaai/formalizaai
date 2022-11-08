@@ -21,12 +21,12 @@ height: auto;
   position: absolute;
 }
 .toTopButton{cursor: pointer;
-padding:1rem 1.5rem ;
-position: sticky;
+padding: 1rem 1.5rem ;
+position: fixed;
 border-radius: .8rem;
 background-color: white;
 bottom: 2%;
-left: 87%;
+left: 84%;
 font-size: 1.6rem;
 color: #0053FC;
 font-weight: 750;

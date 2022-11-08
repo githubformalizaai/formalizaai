@@ -483,25 +483,25 @@ overflow-x: hidden;
 
     @media only screen  and (max-height: 1050px) {
          .price-content h2{
-        padding-top: 80rem;
+        padding-top: 25rem;
       }
     }
      @media only screen  and (max-height: 900px) {
       .price-content h2{
-        padding-top: 35rem;
+        padding-top: 20rem;
       }
     }
     
      @media only screen  and (max-height: 800px) {
       .price-content h2{
-        padding-top: 30rem;
+        padding-top: 15rem;
       }
     }
     
     
      @media only screen  and (max-height: 700px) {
       .price-content h2{
-        padding-top: 25rem;
+        padding-top: 15rem;
       }
     
     }

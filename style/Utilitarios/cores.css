@@ -8,6 +8,8 @@
   --cor-link-form:#777777;
   --cor-disable:#C6C6C6;
   --cor-erro-form: #FC0F00;
+ --cor-form-radio: #040404;
+
 }
 
 .cor-texto-p {
@@ -41,3 +43,5 @@ color: var(--cor-disable);
 }
 
 .cor-erro-form{color: var(--cor-erro-form);}
+
+.cor-form-radio{ color: var(--cor-form-radio);}

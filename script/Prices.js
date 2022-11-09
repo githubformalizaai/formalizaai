@@ -59,7 +59,7 @@ company_legalization.addEventListener("click", e => {
     console.log(e)
 
     if (planLegalization.id == "legalizacaoEmpresaPlan" ) {
-        office.innerHTML = "Registro de Marca"
+        office.innerHTML = "Escritório Virtual"
         
         document.getElementById("busLeg").classList.remove("cor-disable");
         document.getElementById("office_vt").classList.add("cor-disable");
@@ -87,7 +87,7 @@ meeting.addEventListener("click", e => {
     e.preventDefault();
 
     if (planMeeting.id == "salasReuniaoPlan" ) {
-        office.innerHTML = "Escritório Virtual"
+        office.innerHTML = "Registro de Marca"
 
         document.getElementById("meeting_at").classList.remove("cor-disable");
         document.getElementById("office_vt").classList.add("cor-disable");

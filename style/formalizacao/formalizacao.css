@@ -285,5 +285,7 @@ margin-left: 0;
     z-index: -1;
     background: linear-gradient(to left, #f4f4f4 -40%, #FDFC86 -40%);
 }
-
+.formalizacao-section{
+  margin-bottom: 7rem;
+}
 }

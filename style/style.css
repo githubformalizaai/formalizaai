@@ -4,6 +4,7 @@
 @import "/style/Utilitarios/components.css";
 @import "/style/Utilitarios/cores.css";
 @import "/style/Utilitarios/tipografia.css";
+@import "/style/Utilitarios/swiper-bundle.min.css";
 
 /* HEADER */
 @import "/style/header/header.css";

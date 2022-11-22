@@ -608,6 +608,7 @@ margin-inline: 3rem;
           .swiper{
             display: grid;
             grid-template-columns:100.5fr;
+            z-index: 0 !important;
           }
           .swiper h2{ display: flex;
             width: 20ch;
@@ -675,6 +676,20 @@ margin-inline: 3rem;
           flex-direction: column;
           background-size: contain;
           margin-top: 17rem;
+          }
+
+          .perguntasFrequentesImg .overLinks{
+            height: 4rem;
+            padding: 2rem 7rem 7rem;
+            bottom: -4rem;
+          }
+
+          .overLinks{
+            font-size: 1rem;
+          }
+          .overLinks a{
+          
+            padding: .5rem 1rem;
           }
       }
         

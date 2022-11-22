@@ -492,11 +492,7 @@ overflow-x: hidden;
       }
     }
     
-     @media only screen  and (max-height: 800px) {
-      .price-content h2{
-        padding-top: 15rem;
-      }
-    }
+   
     
     
      @media only screen  and (max-height: 700px) {

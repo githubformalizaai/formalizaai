@@ -602,13 +602,7 @@ margin-left: -3rem;
 .registroMarcaSection .sliderContainer{
   grid-area: 2;
 }
-  .registroMarca-content span{ 
-    margin-top: 50rem;
 
-
-
-
-}
 
 .grid-registroMarcas{
 display: flex;

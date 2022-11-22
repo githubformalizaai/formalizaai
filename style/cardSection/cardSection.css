@@ -98,14 +98,16 @@ justify-content: space-between;}
 
 @media screen and (max-width: 468px){
   .cards{
-      margin-inline: 3rem;
+      margin-inline: 1rem;
   }
 
   .card-1 p, .card-2 p, .card-3 p {
       font-size: 1.2rem;
       margin-right: 2rem;
   }
-
+.card-1 .pt-5{
+  margin-block: 3rem 1rem;
+}
   .cardTittle h1 {
 font-size: 2.8rem;
 

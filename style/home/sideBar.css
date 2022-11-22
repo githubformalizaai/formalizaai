@@ -588,7 +588,7 @@ overflow-x: none;
     width: 140vh;
   }
 .formulario{
-
+z-index: 100;
   margin-left: 20rem;
 }
 

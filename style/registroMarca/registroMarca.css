@@ -1,71 +1,77 @@
-.wrapper-registroMarca{
+.wrapper-registroMarca {
   background-image: url(/assets/img/registroMarca/registroMarca_home_bg.png);
   background-repeat: no-repeat;
   background-position: right top;
-width: 100%;
+  width: 100%;
   background-size: contain;
   padding-bottom: 20rem;
-
 }
 
-
-.registroMarcaNoDiscount{
+.registroMarcaNoDiscount {
   padding-inline-end: 6rem;
   width: 12ch;
-  }
+}
 
-.registroMarca-prices{
+.registroMarca-prices {
   display: grid;
-  grid-template-columns: .8fr 1.5fr;
+  grid-template-columns: 0.8fr 1.5fr;
   text-align: center;
 }
-.registroMarcaTittles h3{
-margin-inline: 1rem;
-padding-inline: 2rem;
-
+.registroMarcaTittles h3 {
+  margin-inline: 1rem;
+  padding-inline: 2rem;
 }
-.registroMarcaDiscount{
-margin-inline: 1rem;
-  background-color: #EEEEFF;
+.registroMarcaDiscount {
+  margin-inline: 1rem;
+  background-color: #eeeeff;
   height: fit-content;
   border-radius: 1.2rem;
-  width:auto;
+  width: auto;
   padding-inline: 2rem;
   text-align: center;
 }
 
-.registroMarcaTittles h3{
+.registroMarcaTittles h3 {
   margin-bottom: 6rem;
   margin-right: 4rem;
   text-align: start;
   width: fit-content;
 }
-.registroMarcaDiscount p, .registroMarcaNoDiscount p{
+.registroMarcaDiscount p,
+.registroMarcaNoDiscount p {
   margin-bottom: 2rem;
 }
-.registroMarcaDiscount p:nth-child(2), .registroMarcaNoDiscount p:nth-child(2) {
+.registroMarcaDiscount p,
+.registroMarcaNoDiscount p {
+  font-family: "CircularStd-Book";
+}
+.registroMarcaDiscount p:nth-child(2),
+.registroMarcaNoDiscount p:nth-child(2) {
   margin-top: 1rem;
   font-weight: 900;
-
 }
-.registroMarcaDiscount p:nth-child(3), .registroMarcaNoDiscount p:nth-child(3) {
+.registroMarcaDiscount p:nth-child(3),
+.registroMarcaNoDiscount p:nth-child(3) {
   margin-top: 7rem;
   font-weight: 900;
 }
-.registroMarcaDiscount p:nth-child(4), .registroMarcaNoDiscount p:nth-child(4) {
+.registroMarcaDiscount p:nth-child(4),
+.registroMarcaNoDiscount p:nth-child(4) {
   margin-top: 7.2rem;
   font-weight: 900;
 }
-.registroMarcaDiscount p:nth-child(5), .registroMarcaNoDiscount p:nth-child(5) {
+.registroMarcaDiscount p:nth-child(5),
+.registroMarcaNoDiscount p:nth-child(5) {
   margin-top: 7.2rem;
   font-weight: 900;
 }
-.registroMarcaDiscount p:last-child, .registroMarcaNoDiscount p:last-child {
+.registroMarcaDiscount p:last-child,
+.registroMarcaNoDiscount p:last-child {
   margin-top: 7.5rem;
   font-weight: 900;
 }
 
-.registroMarca p{
+.registroMarca p {
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 145%;
@@ -73,591 +79,560 @@ margin-inline: 1rem;
   max-width: 30ch;
 }
 
-#office-2{
+#office-2 {
   font-weight: 450;
-font-size: 3.2rem;
-line-height: 104%;
-padding: 2rem 4rem;
-
+  font-size: 3.2rem;
+  line-height: 104%;
+  padding: 2rem 4rem;
 }
-.registroMarca-flex h2{
+.registroMarca-flex h2 {
+  font-family: "CircularStd-Book";
+
   font-weight: 42;
   font-size: 3.2rem;
 }
 .registroMarca-sec h2 {
   display: inline-grid;
   font-weight: 900;
-font-size: 4.4rem;
-line-height: 104%;
-max-width: 20ch;
+  font-size: 4.4rem;
+  line-height: 104%;
+  max-width: 20ch;
 }
 
-
-.registroMarca-sec span{
+.registroMarca-sec span {
   margin-block: 0;
-letter-spacing: 0.135em;
-padding-top: 8rem;
-font-weight: 700;
-font-size: 1.6rem;
-line-height: 145%;
+  letter-spacing: 0.135em;
+  padding-top: 8rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 145%;
 }
 
-.registroMarca-sec p { 
+.registroMarca-sec p {
   margin-bottom: 4rem;
 }
 
-
-.registroMarca-section{
+.registroMarca-section {
   display: grid;
-grid-template-columns: 1fr 1fr;
-margin-bottom: 15rem;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 15rem;
 }
 
-.registroMarca-content-img{
+.registroMarca-content-img {
   position: relative;
 }
-.registroMarca-content-img img{
+.registroMarca-content-img img {
   height: auto;
-  max-width: 100%; 
+  max-width: 100%;
   background-size: cover;
 }
 
-
-
-
-.registroMarcaSection{
+.registroMarcaSection {
   margin-block: 20rem;
   display: grid;
   grid-template-columns: 1.4fr 1.6fr;
-  
-  }
-
-.registroMarca-flex{
-  font-weight: 450;
-font-size: 2rem;
-line-height: 145%;
-z-index: 2;
-  }
-
-  
-  .registroMarca-flex-row { z-index: 2;
-  }
-
-  .registroMarca-flex-row h3{
-width: 10ch;
-font-weight: 450;
-font-size: 1.6rem;
-line-height: 145%;
-
-  }
-
-  .registroMarca-flex-row p{
-    font-weight: 450;
-font-size: 2.4rem;
-line-height: 145%;
-z-index: 2;
-position: relative;
-
-  }
-
-  
-  .registroMarca-flex-row p:last-child{
-    margin-right: 5rem;
-  }
-  .registroMarca-flex-row .weight{
-    font-weight: 900;
-  }
-
-
-  .registroMarca-prices h2{
-text-align: center;
-font-weight: 450;
-font-size: 3.2rem;
-line-height: 104%;
-padding-top: 3rem;
-  }
-
-  .total{
-    align-items: baseline;
-  
-  }
-
-  .total h3{
-    margin-right: 5rem;
-  }
-
-
-
-
-  .registroMarca-flex-row{
-    margin-bottom:3rem;
-  }
-  .registroMarcaTittles h3{
-    position: relative;
-    margin-right: 3rem;
-  }
-  .registroMarcaTittles h3:last-child{
-    font-size: 2rem;
-  }
- 
-  .registroMarcaTittles h3::after{
-    content: "";
-position: absolute;
-width: 49rem;
-top: 7rem;
-left:3%;
-height: .12rem;
-background-color: #D9D9D9;
-
-  }
-  .registroMarcaTittles h3:first-child::after,   .registroMarcaTittles h3:last-child::after{
-    content: "";
-    width: 0;
-    height: 0;
-  }
-  .card-image{
-display: flex;
-flex-direction: row;
-   }
-
-   .comment-slider-container{
-    margin-bottom: 16rem;
-       }
-
-       .comment-slider-container h2{ 
-    font-weight: 900;
-font-size: 4rem;
-line-height: 104%;
-  }
-
-
-.card-img{
-   height: 100%;
-   max-width: 100%;
-   object-fit: cover;
-
-}
-.card-content .name{ 
-  font-weight: 450;
-font-size: 2.2rem;
-line-height: 104%;
 }
 
-.grid-registroMarcas{
+.registroMarca-flex {
+  font-weight: 450;
+  font-size: 2rem;
+  line-height: 145%;
+  z-index: 2;
+}
+
+.registroMarca-flex-row {
+  z-index: 2;
+}
+
+.registroMarca-flex-row h3 {
+  width: 10ch;
+  font-weight: 450;
+  font-size: 1.6rem;
+  line-height: 145%;
+}
+
+.registroMarca-flex-row p {
+  font-weight: 450;
+  font-size: 2.4rem;
+  line-height: 145%;
+  z-index: 2;
+  position: relative;
+}
+
+.registroMarca-flex-row p:last-child {
+  margin-right: 5rem;
+}
+.registroMarca-flex-row .weight {
+  font-weight: 900;
+}
+
+.registroMarca-prices h2 {
+  text-align: center;
+  font-weight: 450;
+  font-size: 3.2rem;
+  line-height: 104%;
+  padding-top: 3rem;
+}
+
+.total {
+  align-items: baseline;
+}
+
+.total h3 {
+  margin-right: 5rem;
+}
+
+.registroMarca-flex-row {
+  margin-bottom: 3rem;
+}
+.registroMarcaTittles h3 {
+  position: relative;
+  margin-right: 3rem;
+}
+.registroMarcaTittles h3:last-child {
+  font-size: 2rem;
+}
+
+.registroMarcaTittles h3::after {
+  content: "";
+  position: absolute;
+  width: 49rem;
+  top: 7rem;
+  left: 3%;
+  height: 0.12rem;
+  background-color: #d9d9d9;
+}
+.registroMarcaTittles h3:first-child::after,
+.registroMarcaTittles h3:last-child::after {
+  content: "";
+  width: 0;
+  height: 0;
+}
+.card-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-slider-container {
+  margin-bottom: 16rem;
+}
+
+.comment-slider-container h2 {
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 104%;
+}
+
+.card-img {
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.card-content .name {
+  font-weight: 450;
+  font-size: 2.2rem;
+  line-height: 104%;
+}
+
+.grid-registroMarcas {
   display: grid;
   margin-left: 5rem;
   margin-bottom: 20rem;
 }
 
-.grid-registroMarcas h3{
-grid-area: 1 -1;
+.grid-registroMarcas h3 {
+  grid-area: 1 -1;
   font-size: 4rem;
   width: 23ch;
   text-align: start;
-align-items: center;
+  align-items: center;
 }
 
-.registroMarcas-card2{
+.registroMarcas-card2 {
   grid-column: 2;
   grid-row: 2;
 }
-.prices-cards{
-grid-row: 2;
+.prices-cards {
+  grid-row: 2;
 }
-.prices-cards.gridPrice{
+.prices-cards.gridPrice {
   grid-row: 1;
-  }
-.registroMarcas-card2{
+}
+.registroMarcas-card2 {
   transform: translateX(-10rem);
 }
- .grid-price h3{display: flex;
+.grid-price h3 {
+  display: flex;
   font-size: 2.8rem;
   width: 20ch;
   margin-inline: 3rem;
   text-align: center;
-align-items: center;
+  align-items: center;
 }
 
-.card-content{
- padding: 1rem;
-
-
+.card-content {
+  padding: 1rem;
 }
-.card{
-  background-color: white ;
+.card {
+  background-color: white;
   width: 10rem;
   margin-bottom: 4rem;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
 }
 
-.card-content .name-client{
+.card-content .name-client {
   font-weight: 450;
-font-size: 16px;
-line-height: 104%;
+  font-size: 16px;
+  line-height: 104%;
 }
 
-.card-content p:last-child{ 
+.card-content p:last-child {
   margin-top: 1rem;
   transform: translateX(-10rem);
   font-weight: 450;
-font-size: 1.4rem;
-line-height: 104%;
-margin-left: 13rem;
+  font-size: 1.4rem;
+  line-height: 104%;
+  margin-left: 13rem;
 }
 
-.grid-swipper{
+.grid-swipper {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-@media screen and (max-width: 1024px){
-  .wrapper-registroMarca{
+@media screen and (max-width: 1024px) {
+  .wrapper-registroMarca {
     padding-bottom: 0;
   }
-  .registroMarcas-card2{
+  .registroMarcas-card2 {
     grid-row: 1;
     grid-column: 1;
   }
-  .registroMarca-sec,   .registroMarca-section .registroMarca-content-text{
+  .registroMarca-sec,
+  .registroMarca-section .registroMarca-content-text {
     margin-inline: 3rem;
-
-  } 
-  .registroMarca-section h2{
-      margin-top: 10rem;
-      max-width: 28ch;
-    }
-  .registroMarca-sec h2{
-max-width: 28ch;
-
   }
-  .registroMarcaSection 
-  .registroMarca-content h2, .registroMarca-content a, .registroMarca-content p{
+  .registroMarca-section h2 {
+    margin-top: 10rem;
+    max-width: 28ch;
+  }
+  .registroMarca-sec h2 {
+    max-width: 28ch;
+  }
+  .registroMarcaSection .registroMarca-content h2,
+  .registroMarca-content a,
+  .registroMarca-content p {
     margin-left: 1rem;
   }
 
-  .registroMarca-content h2{
-font-size: 2.8rem;
-margin-left: 1rem;
-  
-}
-.registroMarca-sec p{
-font-size: 1.8rem;
-}
+  .registroMarca-content h2 {
+    font-size: 2.8rem;
+    margin-left: 1rem;
+  }
+  .registroMarca-sec p {
+    font-size: 1.8rem;
+  }
 
-  .registroMarca-sec p, .registroMarca-section p{
+  .registroMarca-sec p,
+  .registroMarca-section p {
     max-width: 60ch;
   }
 
-  .registroMarca-section{
-    margin-left: 0rem;}
-    
+  .registroMarca-section {
+    margin-left: 0rem;
+  }
+
   .registroMarca-content-img {
     display: flex;
     justify-content: start;
     margin-inline: 0rem;
   }
-  #Taxas{
+  #Taxas {
     margin: 0 auto;
-   width: 60%;
+    width: 60%;
     grid-row: 2;
   }
-  .registroMarcaSection, .registroMarca-section, .grid-registroMarcas{
+  .registroMarcaSection,
+  .registroMarca-section,
+  .grid-registroMarcas {
     grid-template-columns: 1fr;
-      }
+  }
 
-      .registroMarcaSection{
-        margin-block-end: 8rem;
-      }
-      .registroMarca-content-img{
-        grid-area: 2;
-        margin-top: 7rem;
-      }
+  .registroMarcaSection {
+    margin-block-end: 8rem;
+  }
+  .registroMarca-content-img {
+    grid-area: 2;
+    margin-top: 7rem;
+  }
 
-      .registroMarcas-card2{
-        grid-row: 3;
-        transform: translateX(0%);
-        margin-top: 10rem;
-        margin-left: 2rem;
+  .registroMarcas-card2 {
+    grid-row: 3;
+    transform: translateX(0%);
+    margin-top: 10rem;
+    margin-left: 2rem;
+  }
 
-      }
+  .comment-slider-container h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .registroMarca-sec span {
+    margin-top: 60rem;
+  }
 
-      .comment-slider-container h2{
-display: flex;
-        justify-content: center;
-      }
-      .registroMarca-sec span{
-        margin-top: 60rem;
-      }
+  .grid-registroMarcas {
+    margin-inline: 5rem;
+  }
 
-      .grid-registroMarcas{
-        margin-inline: 5rem;
-      }
+  .grid-registroMarcas {
+    margin-bottom: 6rem;
+  }
+  .text-grid h2 {
+    max-width: 22ch;
+    margin-block-start: 0rem;
+  }
+}
 
-      .grid-registroMarcas{
-        margin-bottom: 6rem;
-      }
-      .text-grid h2{
-        max-width: 22ch;
-        margin-block-start: 0rem;
-      }
-    }
-
-
-.registroMarcaSection{
+.registroMarcaSection {
   margin-block-start: 5rem;
 }
-  @media screen and (max-width: 1388px){
- 
-  .co-working-home{
+@media screen and (max-width: 1388px) {
+  .co-working-home {
     margin-top: 17rem;
   }
 
-  .registroMarca-flex p:first-child::before{
+  .registroMarca-flex p:first-child::before {
     max-height: 80vh;
     height: 73vh;
   }
 
-  .registroMarcaDiscount p:first-child{
+  .registroMarcaDiscount p:first-child {
     width: 12ch;
-
   }
 }
-@media screen and (max-width: 768px){
-  .wrapper-registroMarca{
+@media screen and (max-width: 768px) {
+  .wrapper-registroMarca {
     background-image: url(/assets/img/registroMarca/registroMarca_home_bg_mb.png);
     background-repeat: no-repeat;
     background-position: right top;
-  width: 100%;
+    width: 100%;
     height: 110vh;
   }
 
-  .registroMarca-flex h2{
-  
+  .registroMarca-flex h2 {
     width: 18ch;
   }
-  .registroMarcaTittles h3::after{
+  .registroMarcaTittles h3::after {
     content: "";
-position: absolute;
-width: 0;
-height: 0;
-
+    position: absolute;
+    width: 0;
+    height: 0;
   }
-  .grid-swipper{
+  .grid-swipper {
     overflow-y: auto;
   }
-  .registroMarcaDiscount{
+  .registroMarcaDiscount {
     width: 12ch;
   }
-  .registroMarcaSection .sliderContainer{
+  .registroMarcaSection .sliderContainer {
     width: 30rem;
   }
-  .card-content p:last-child{ 
-
-  max-width: 26ch;
+  .card-content p:last-child {
+    max-width: 26ch;
   }
 
-.registroMarcaSection .sliderContainer{
-  grid-area: 2;
-}
-  .registroMarca-content span{ 
+  .registroMarcaSection .sliderContainer {
+    grid-area: 2;
+  }
+  .registroMarca-content span {
     margin-top: 40rem;
+  }
+
+  .registroMarcaSection .text-grid {
+    margin-top: 5rem;
+    margin-left: 10%;
+  }
+
+  .registroMarcaSection .text-grid h2 {
+    font-size: 2.8rem;
+  }
+
+  .registroMarcaSection .text-grid p {
+    font-size: 2.4rem;
+  }
+  .registroMarca-section {
+    grid-template-columns: 1fr;
+  }
+
+  .registroMarca-content-text {
+    grid-area: 1;
+  }
 }
 
-
-
-.registroMarcaSection .text-grid{
-  margin-top: 5rem;
-  margin-left: 10%;
-}
-
-.registroMarcaSection .text-grid h2{
-  font-size: 2.8rem;
-}
-
-.registroMarcaSection .text-grid p{
-  font-size: 2.4rem;
-}
-.registroMarca-section{
-  grid-template-columns: 1fr;
-}
-
-.registroMarca-content-text{grid-area: 1;}
-}
-
-@media screen and (max-width: 468px){
-  .wrapper-registroMarca{
+@media screen and (max-width: 468px) {
+  .wrapper-registroMarca {
     background-image: url(/assets/img/registroMarca/registroMarca_home_bg_mb.png);
     background-repeat: no-repeat;
     background-position: right top;
-max-width: 100%;
-padding-bottom: 0rem;
-  background-size: calc(50vh + 10rem);
+    max-width: 100%;
+    padding-bottom: 0rem;
+    background-size: calc(50vh + 10rem);
   }
- 
-  .registroMarca-flex h2{
 
+  .registroMarca-flex h2 {
     width: 18ch;
   }
 
-  .escritorioVirtualPlan{
+  .escritorioVirtualPlan {
     text-align: start;
-
   }
-  #Taxas{
+  #Taxas {
     max-width: 80%;
     margin-inline: 3rem;
   }
 
-  .comment-slider-container h2{
+  .comment-slider-container h2 {
     margin-top: 7rem;
     font-size: 2.8rem;
   }
-  .registroMarca-prices{
+  .registroMarca-prices {
     overflow-x: auto;
-width: 100%;
-position:relative
+    width: 100%;
+    position: relative;
   }
-  .comment-slider-container{
+  .comment-slider-container {
     margin-bottom: 9.9rem;
   }
-  .registroMarcaNoDiscount{
- padding-inline-end: 6rem;
- width: 20ch;
+  .registroMarcaNoDiscount {
+    padding-inline-end: 6rem;
+    width: 20ch;
   }
-  .registroMarcaTittles h3{
+  .registroMarcaTittles h3 {
     margin-top: 6.2rem;
 
     font-size: 1.4rem;
     margin-right: 0;
   }
-  .registroMarcaTittles h3::after{
+  .registroMarcaTittles h3::after {
     content: "";
-position: absolute;
-width: 0;
-height: 0;
-
+    position: absolute;
+    width: 0;
+    height: 0;
   }
-  .registroMarca-prices{
+  .registroMarca-prices {
     display: grid;
     grid-template-columns: 1.3fr 1fr 1fr;
     text-align: center;
-  gap: .5rem;
-  overflow-x: auto;
-  position:relative
-
-  
+    gap: 0.5rem;
+    overflow-x: auto;
+    position: relative;
   }
-.registroMarcaTittles{
- position: relative;
+  .registroMarcaTittles {
+    position: relative;
+  }
 
-}
-
-  
-.registroMarca-flex p:first-child::before {
-  position: absolute;
+  .registroMarca-flex p:first-child::before {
+    position: absolute;
     max-height: 70rem;
     height: 58rem;
-  width: 12rem;
+    width: 12rem;
   }
-  
-  .registroMarca-section h2{
+
+  .registroMarca-section h2 {
     font-size: 2.8rem;
     margin-left: 0rem;
   }
-  .registroMarca-section p{
+  .registroMarca-section p {
     margin-left: 0rem;
     margin-bottom: 10rem;
   }
-  .grid-price h3{
+  .grid-price h3 {
     font-size: 2.4rem;
     margin-inline: 4rem;
     margin-left: 2.5rem;
+  }
+  .registroMarca-content-img img {
+    margin-left: -3rem;
+  }
 
- }
- .registroMarca-content-img img{
-margin-left: -3rem;
-
-
- }
-
- .registroMarca-section{
-  margin-bottom: 0rem;
- }
- .registroMarca-content-img::before {
-  content: "";
+  .registroMarca-section {
+    margin-bottom: 0rem;
+  }
+  .registroMarca-content-img::before {
+    content: "";
     position: absolute;
     width: 115%;
     height: 44rem;
     top: 0%;
-    
+
     z-index: -1;
-    background: linear-gradient(to left, rgb(244, 244, 244) -100%, rgb(196, 223, 152) -100% );
- }
-.grid-solution{
-  margin-top: 0rem;
+    background: linear-gradient(
+      to left,
+      rgb(244, 244, 244) -100%,
+      rgb(196, 223, 152) -100%
+    );
+  }
+  .grid-solution {
+    margin-top: 0rem;
+  }
+
+  .registroMarcaSection .sliderContainer {
+    grid-area: 2;
+  }
+
+  .grid-registroMarcas {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-registroMarcas h3 {
+    font-size: 2.8rem;
+    max-width: 18ch;
+    text-align: start;
+  }
+
+  .registroMarcas-card2 {
+    transform: translateX(-3rem);
+  }
+  .registroMarcaSection .text-grid {
+    margin-inline: 2.5rem auto;
+  }
+
+  .registroMarcaSection .text-grid h2 {
+    font-size: 2.8rem;
+    width: 20ch;
+  }
+
+  .registroMarcaSection .text-grid p {
+    font-size: 2.4rem;
+    width: 25ch;
+  }
+  .registroMarca-section {
+    grid-template-columns: 1fr;
+  }
+
+  .registroMarca-content-text {
+    grid-area: 1;
+  }
+
+  .escritorioVirtual h2 {
+    font-size: 2.4rem;
+  }
 }
 
-
-
-.registroMarcaSection .sliderContainer{
-  grid-area: 2;
-}
-
-
-.grid-registroMarcas{
-display: flex;
-flex-direction: column;
-}
-.grid-registroMarcas h3{
-  font-size: 2.8rem;
-  max-width: 18ch;
-  text-align: start;
-}
-
-.registroMarcas-card2{
-  transform: translateX(-3rem);
-}
-.registroMarcaSection .text-grid{
-margin-inline: 2.5rem auto;
-
-}
-
-.registroMarcaSection .text-grid h2{
-  font-size: 2.8rem;
-  width: 20ch;
-}
-
-.registroMarcaSection .text-grid p{
-  font-size: 2.4rem;
-  width: 25ch;
-
-}
-.registroMarca-section{
-  grid-template-columns: 1fr;
-}
-
-.registroMarca-content-text{grid-area: 1;}
-
-.escritorioVirtual h2 {
-
-  font-size: 2.4rem;}
-
-}
-
-
-@media screen and (min-width: 1500px){
-  .formalizacao-section h2, .registroMarca-section h2{
+@media screen and (min-width: 1500px) {
+  .formalizacao-section h2,
+  .registroMarca-section h2 {
     max-width: 30ch;
   }
-  
-  .formalizacao-section p, .registroMarca-section p{
+
+  .formalizacao-section p,
+  .registroMarca-section p {
     max-width: 45ch;
-    }
+  }
 
-    .registroMarca-section, .formalizacao-section h2 {
-grid-template-columns: 1fr 1.3fr;
-    }  
-
-
-
+  .registroMarca-section,
+  .formalizacao-section h2 {
+    grid-template-columns: 1fr 1.3fr;
+  }
 }

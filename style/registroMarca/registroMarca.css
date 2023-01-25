@@ -8,8 +8,8 @@
 }
 
 .registroMarcaNoDiscount {
-  padding-inline-end: 6rem;
-  width: 12ch;
+  /* padding-inline-end: 2rem;
+  width: 12ch; */
 }
 
 .registroMarca-prices {
@@ -196,12 +196,49 @@
 .registroMarcaTittles h3::after {
   content: "";
   position: absolute;
-  width: 49rem;
   top: 7rem;
   left: 3%;
   height: 0.12rem;
   background-color: #d9d9d9;
 }
+
+@media screen and (min-width: 1024px) {
+  .registroMarcaTittles h3::after {
+    width: 45rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .registroMarcaTittles h3::after {
+    width: 55rem;
+  }
+}
+
+
+@media screen and (min-width: 1550px) {
+  .registroMarcaTittles h3::after {
+    width: 62rem;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .registroMarcaTittles h3::after {
+    width: 65rem;
+  }
+}
+
+@media screen and (min-width: 1750px) {
+  .registroMarcaTittles h3::after {
+    width: 70rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .registroMarcaTittles h3::after {
+    width: 79rem;
+  }
+}
+
 .registroMarcaTittles h3:first-child::after,
 .registroMarcaTittles h3:last-child::after {
   content: "";
